@@ -33,7 +33,7 @@ angular.module('sFlowmap', [])
                     .data(scope.data.data)
                     .enter()
                     .append('path')
-                    .attr('fill', 'red')
+                    .attr('fill', 'limegreen')
                     .attr('d', 'm 15 0 l-30 -10 l 5 10 l-5 10 z')
                     .attr('transform', function(d) {
                         return 'translate(' + scalex(d.x) + ',' + scaley(d.y) + '), rotate(' + d.angle + ')'
